@@ -1,4 +1,6 @@
-
+//This is an Exercise in javascript where we need to take input from user 
+//create one functin and take input as profession ,age , workexp using prompt function
+//after taking input make a new function for displaying the output if work exp is more than 5 consider it as senior.
 
 var Detail=function(prof,ag,exp){
     console.log('Profession is :' +prof);
