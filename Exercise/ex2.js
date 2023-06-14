@@ -28,3 +28,6 @@ a=1;
 console.log('Addition of ' +(a+z));
 
 
+var num1=prompt('Enter First Number');
+var num2=prompt('enter two number');
+console.log(num1*num2);
