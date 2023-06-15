@@ -10,3 +10,13 @@ console.log(Second[2]);
 var third=[1,[2,7,5,8]];
 console.log(third);
 console.log(third[1][2]);
+
+//shift
+var New=['AFTAB','KHAN','SHAHRUKH','KHAN'];
+var af=New.shift();
+console.log(New);
+console.log(af);
+
+//unshift
+New.unshift();
+console.log(New);
