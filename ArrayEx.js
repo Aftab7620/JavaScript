@@ -11,12 +11,12 @@ var third=[1,[2,7,5,8]];
 console.log(third);
 console.log(third[1][2]);
 
-//shift
+//shift array
 var New=['AFTAB','KHAN','SHAHRUKH','KHAN'];
 var af=New.shift();
 console.log(New);
 console.log(af);
 
-//unshift
+//unshift array
 New.unshift();
 console.log(New);
