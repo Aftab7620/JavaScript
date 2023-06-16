@@ -18,7 +18,7 @@ var af=New.shift();
 console.log(New);
 console.log(af);
 
-<<<<<<< HEAD
+
 //unshift
 //New.unshift();
 console.log(New);
@@ -64,8 +64,8 @@ let cities=[
 
 //map
 console.log(cities.map(city=>city.population*2));
-=======
 //unshift array
 New.unshift();
 console.log(New);
->>>>>>> 9aa22628f69752fba59f9b985ad9afda15a257b3
+console.log("Hello world!");
+
