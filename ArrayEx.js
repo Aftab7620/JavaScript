@@ -18,5 +18,47 @@ console.log(New);
 console.log(af);
 
 //unshift
-New.unshift();
+//New.unshift();
 console.log(New);
+
+//slicing
+console.log(New.slice(1,3));
+
+//for loop
+for(let i=0;i<New.length;i++){
+    console.log(New[i]);
+}
+
+const Ar=["Aftab","Khan","Mca","Rcoem","Nagpur"];
+for(let i=0;i<Ar.length;i++){
+    console.log(Ar[i]);
+}
+
+
+//for-each
+Ar.forEach(function(Ar,index){
+    console.log(Ar,index);
+})
+
+
+//join
+let joins=['A','F','T','A','B'];
+let join1=console.log(joins.join('_'));
+
+//split
+//onsole.log(join1.split('_'));
+
+
+
+//filter
+let cities=[
+    {names:'Nagpur',population:150000},
+    {names:'Mun',population:180000},
+    {names:'del',population:250000},
+    {names:'kanpur',population:100000},
+    {names:'Nagpuri',population:210000},
+]
+//console.log(cities.filter(city=>city.population>200000));
+
+//map
+console.log(cities.map(city=>city.population*2));
