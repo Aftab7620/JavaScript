@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> demonstration of arrow function.</h1>
+    <script>
+        let hello=()=>'Hello';
+        document.write(hello() +"<br>");
+        "<br/>";
+
+        let world=(name,...args)=>{
+            document.write`hello ${name} `;
+            sum=0
+            for (let i in args){
+             sum=sum+args[i];
+             
+            }
+            document.write("<br/>");
+            document.write("Sum is :" +sum);
+
+        }
+        
+        world("Aftab",12,66,99);
+    </script>
+</body>
+</html>
