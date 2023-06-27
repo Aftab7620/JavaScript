@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Destructuring of Array:</h2>
+    <script>
+        // let arr=["Aftab",25,"Nagpur",["Developer",20000]];
+        // let[name,age,city,[ post, sal ]]=arr;
+        // console.log(name);
+        // console.log(age);
+        // console.log(city);
+        // console.log(post);
+        // console.log(sal);
+
+        // let name=['Aftab',25,'Nagpur'];
+        // let [fname,...arg]=name;
+        // console.log(fname);
+        // console.log(arg);
+        
+        function show(){
+            return["Aftab",20,"Nagpur"];
+        }
+
+        // console.log(show(["Aftab",20,"Nagpur"]));
+
+        let[name,age,city]=show();
+        console.log(age);
+        console.log(city);
+        console.log(name);
+
+
+    </script>
+</body>
+</html>
