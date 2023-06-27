@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Advanced js Object literals</h2>
+    <script>
+        let name="Aftab";
+        let lname="Khan";
+        let obj={
+            name,
+            lname
+        }
+        console.log(obj);
+
+        var obj1={
+            [lname]:"Aftabkhan"
+        }
+
+        console.log(obj1);
+        let n="students";
+
+        var obj2 = {
+        [n+ "name"]: "Aftab",
+        course: "mca",
+        detail: function(){
+        return `${this.studentsname} is student of ${this.course}`;
+}
+        }
+console.log(obj2);
+console.log(obj2.detail());
+
+let obj={
+    name:"Aftab",
+    Show(){
+        return`${this.name}`;
+    }
+
+}
+
+console.log(obj['Show']());
+
+let bike="Tvs Sports";
+let company="Tvs";
+function Print(bike,company) {
+    return{bike,company};
+}
+console.log(Print(bike,company));
+    </script>
+</body>
+</html>
