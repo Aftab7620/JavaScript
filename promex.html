@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function prom(complete){
+            return new Promise(function(resolve,reject){
+                if(complete){
+                    resolve("successfully done");
+        }
+        else{
+            reject("Failed to complete");
+        }
+    });
+};
+
+
+let onfulfilled = (result) => {
+    console.log(result);
+}
+
+let onrejected =(err) => {
+    console.log(err);
+}
+
+
+prom(true).then(onfulfilled);
+prom(true).catch(onrejected);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
