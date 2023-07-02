@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=Symbol("age");
+        let user={
+            name:"aftab",
+            course:"mca"
+        }
+        user[a]=44;
+        user["gender"]="male";
+        console.log(user);
+
+        console.log(JSON.stringify(user));
+    </script>
+</body>
+</html>
