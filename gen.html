@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function *generatorsid(){
+        //     console.log("Generators");
+        //     yield'no1';
+        //     console.log("Generators");
+        //     yield'no2';
+        // }
+        // let g=generatorsid();
+        // g.next();
+        // g.next();
+        // console.log(g.next());
+
+        function *gen(){
+        //     let res=yield;
+        //     console.log(`Result is : ${res}`);
+        // }
+        // let g=gen();
+        // g.next();
+        // g.next(55);
+
+
+        yield "javascript";
+        yield "java";
+        yield "console";
+        }
+
+        let g=gen();
+        console.log(g.next().value);
+        console.log([...g]);
+
+    </script>
+</body>
+</html>
