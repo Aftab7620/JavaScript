@@ -9,21 +9,49 @@
     <script>
         //let a=[1,2,3,4];
 
-        let a="Aftab khan";
-        let i=a[Symbol.iterator]();
-        let result=i.next();
-    //   i.next();
-    //     console.log(i.next());
-    //     console.log(i.next());
-    //     console.log(i.next());
-    //     console.log(i.next());
+        // let a="Aftab khan";
+        // let i=a[Symbol.iterator]();
+        // let result=i.next();
+        //   i.next();
+        //     console.log(i.next());
+        //     console.log(i.next());
+        //     console.log(i.next());
+        //     console.log(i.next());
 
-    while(!result.done)
-    {
-        console.log(result.value);
-        result=i.next();
+        // while(!result.done)
+        // {
+        //     console.log(result.value);
+        //     result=i.next();
 
-    }
+        // }
+
+        function numberIterator(arr) {
+            var nextNum = 0;
+            return {
+                next() {
+                    if (nextNum < arr.length) {
+                        return {
+                            value: arr[nextNum++],
+                            done: false
+                        };
+                    } else {
+                        return {
+                            done: true
+                        };
+                    }
+                }
+            }
+        }
+
+        let numbers = [100, 200, 300, 400, 500];
+        let num = numberIterator(numbers);
+        console.log(num.next());
+        console.log(num.next());
+        console.log(num.next());
+        console.log(num.next());
+        console.log(num.next());
+        console.log(num.next());
+        console.log(num.next());
     </script>
 </body>
 </html>
