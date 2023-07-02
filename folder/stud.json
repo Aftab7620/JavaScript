@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Aftab",
+         "age":23,
+        "city":"nag"   
+     },
+     {
+            
+            "name": "Om",
+            "age":23,
+            "city":"nag"   
+         },
+        {
+                    "name": "Aftb",
+                     "age":23,
+                    "city":"nag"   
+         }
+
+]
