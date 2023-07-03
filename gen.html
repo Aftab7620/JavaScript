@@ -35,6 +35,8 @@
         let g=gen();
         console.log(g.next().value);
         console.log([...g]);
+        g.next();
+        console.log(g.next().value);
 
     </script>
 </body>
