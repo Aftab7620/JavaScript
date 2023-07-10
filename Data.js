@@ -14,8 +14,8 @@ console.log(21+ ' years')
 console.log(22- '10');
 
 //BOOLEAN TRUE OR FALSE
-console.log(5>4);
-console.log(5<5);
-console.log(5>=5);
-console.log(5<=5);
+console.log(5>4);//true
+console.log(5<5); //false
+console.log(5>=5);//true
+console.log(5<=5);//true
 
