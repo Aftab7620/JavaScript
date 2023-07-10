@@ -1,0 +1,4 @@
+hello all 
+this is the new topic of javascript 
+here we are going to learn about DOM elements.
+DOM stands for Document Object Model.
