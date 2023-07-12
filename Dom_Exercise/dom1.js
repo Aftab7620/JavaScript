@@ -12,10 +12,14 @@
 
 //4) Query Selector --- querySelector
 
-var d=document.querySelector("h2");
-console.log(d);
+// var d=document.querySelector("h2");
+// console.log(d);
 
 //5) Query Selector --- querySelectorAll
 
-var e=document.querySelectorAll("h2");
-console.log(e);
+// var e=document.querySelectorAll("h2");
+// console.log(e);
+
+//6) Get Attribute --- getAttribute
+var x = document.querySelector("p").getAttribute("class");
+console.log(x);
