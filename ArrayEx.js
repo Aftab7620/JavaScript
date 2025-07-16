@@ -3,6 +3,7 @@
 // var FirstArray=[1,2,3,4];
 // console.log(FirstArray);
 
+
 // //mix array
 // var Second=[1,2,'Aftab','Khan'];
 // console.log(Second);
