@@ -2,6 +2,7 @@
 // var A=document.getElementsByTagName("p");
 // console.log(A);
 
+
 //class name --- getElementsByClassName
 // var b=document.getElementsByClassName("head");
 // console.log(b);
